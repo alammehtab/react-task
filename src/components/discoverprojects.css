@@ -1,0 +1,22 @@
+.container-div {
+  background-color: aliceblue;
+}
+
+.first-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.second-div p {
+  font-weight: bold;
+  font-size: small;
+}
+
+.btn-outline-primary {
+  margin-left: 20px;
+}

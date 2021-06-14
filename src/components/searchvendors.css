@@ -1,0 +1,19 @@
+.outer-container {
+  text-align: center;
+}
+
+.pics-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.btn-dark {
+  margin-left: 20px;
+}

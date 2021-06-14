@@ -1,0 +1,23 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  width: 10rem;
+  height: 2rem;
+}
+
+.un-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.un-list li {
+  margin-left: 20px;
+}

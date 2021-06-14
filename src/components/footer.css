@@ -1,0 +1,21 @@
+.my-outer-container {
+  background-color: #202021;
+  color: wheat;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex2 {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bolder {
+  font-weight: bolder;
+}

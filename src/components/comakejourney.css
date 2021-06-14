@@ -1,0 +1,14 @@
+.journey-h1 {
+  text-align: center;
+}
+
+.p-under-h1 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #81f7f3;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

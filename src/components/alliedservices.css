@@ -1,0 +1,21 @@
+.allied-container-div {
+  background-color: aliceblue;
+}
+
+.allied-h1 {
+  text-align: center;
+}
+
+.allied-container{
+    text-align: center;
+}
+.allied-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.allied-card{
+    text-align: center;
+    font-weight: bold;
+}
