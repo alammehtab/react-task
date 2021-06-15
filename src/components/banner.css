@@ -3,9 +3,23 @@
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  align-items: center;
   height: 500px;
+  overflow: hidden;
+}
+
+.banner-inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-first-div {
 }
 
 .banner-second-div {
-  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: -6;
 }
