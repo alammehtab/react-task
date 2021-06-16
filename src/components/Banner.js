@@ -17,13 +17,11 @@ export default function Banner() {
         {/* second div */}
         <br />
         <br />
-        <br />
-        <br />
         <div className="banner-second-div">
           <input
             type="text"
             placeholder="Type in shoes, clothing, print, etc!"
-            style={{fontSize:'small',width:'30%',borderRadius:5}}
+            style={{ fontSize: "small", width: "30%", borderRadius: 5 }}
           />
           <button
             style={{
@@ -38,7 +36,7 @@ export default function Banner() {
           </button>
           <button
             className="btn btn-primary"
-            style={{ marginLeft: 20, borderRadius: 5,color:'black' }}
+            style={{ marginLeft: 20, borderRadius: 5, color: "black" }}
           >
             Find a Vendor
           </button>

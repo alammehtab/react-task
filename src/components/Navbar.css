@@ -21,3 +21,46 @@
 .un-list li {
   margin-left: 20px;
 }
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+  .un-list {
+    display: none;
+  }
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .un-list {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .un-list li {
+    text-align: center;
+  }
+  .un-list.active {
+    display: flex;
+  }
+}

@@ -3,8 +3,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   height: 500px;
   overflow: hidden;
@@ -14,12 +14,18 @@
   display: flex;
   flex-direction: column;
 }
-
-.banner-first-div {
-}
-
 .banner-second-div {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: -6;
+}
+
+@media (max-width: 600px) {
+  .banner-second-div {
+    display: none;
+  }
+  .banner-container {
+    height: 200px;
+    align-items: center;
+  }
 }
